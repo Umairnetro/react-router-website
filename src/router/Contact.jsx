@@ -1,9 +1,7 @@
-const Contact = () => {
-  return (
-    <div>
-      Contact
-    </div>
-  )
-}
+import UnderConstruction from "../components/UnderConstruction";
 
-export default Contact
+const Contact = () => {
+  return <UnderConstruction pageName={"Contact"} />;
+};
+
+export default Contact;

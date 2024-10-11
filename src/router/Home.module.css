@@ -16,6 +16,7 @@
       border: 2px solid var(--tertiary-color);
       position: absolute;
       top: 10px;
+      z-index: -1;
 
       & .dot {
         width: 10px;
