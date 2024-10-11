@@ -8,11 +8,18 @@
   flex-direction: column;
   color: white;
 
-  & h2{
+  & h2 {
     align-self: start;
     font-size: 3rem;
     width: 30%;
     margin-bottom: 20px;
   }
-  
+
+  & > h3 {
+    padding: 15px 28px;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    margin-top: 40px;
+    border-radius: 60px;
+  }
 }

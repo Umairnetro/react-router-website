@@ -7,6 +7,7 @@ const Products = () => {
       <h2>This Week Featured
       Product</h2>
       <Card/>
+      <h3>Coming Soon</h3>
     </section>
   )
 }
