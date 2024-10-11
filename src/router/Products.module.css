@@ -1,0 +1,18 @@
+.container {
+  width: min(100% - 40px, 1450px);
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+
+  & h2{
+    align-self: start;
+    font-size: 3rem;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+}

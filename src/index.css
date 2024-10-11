@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "K2D", sans-serif;
+}
+
+body {
+  background-color: rgb(17, 19, 24);
+}
+
+:root {
+  /* Custom Style */
+  --primary-color: #335230;
+  --shade-color: #1B3218;
+  --light-color: #3a5c36;
+  --secondary-color: #fac97a;
+  --tertiary-color: #ff8a1e;
+  --hover-color: #5b8058;
+  --text-color: #ffff;
+  --text2-color: #c4c4c4;
+  --transition: 0.2s linear;
+}
