@@ -52,6 +52,7 @@ nav {
     background-color: var(--tertiary-color);
     border-radius: 60px;
     border: none;
+    
     font-size: 0.9rem;
     cursor: pointer;
     display: flex;
