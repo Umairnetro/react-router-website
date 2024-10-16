@@ -49,6 +49,19 @@ const Navbar = () => {
               Contact
             </NavLink>
           </li>
+          {/* ========= Dummy start========= */}
+          <li>
+            <NavLink
+              className={(e) => {
+                return e.isActive ? "active" : "";
+              }}
+              to="/apple"
+            >
+              Apple
+            </NavLink>
+          </li>
+          {/* ========= Dummy end ========= */}
+
         </ul>
         <button className="cart-btn">
           <svg
